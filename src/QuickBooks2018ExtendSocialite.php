@@ -1,6 +1,6 @@
 <?php
 
-namespace SocialiteProviders\QuickBooks2018;
+namespace SocialiteProviders\QuickbookSocialite2018;
 
 use SocialiteProviders\Manager\SocialiteWasCalled;
 
