@@ -1,5 +1,5 @@
 {
-    "name": "socialiteproviders/QuickbookSocialite",
+    "name": "socialiteprovidersquickbook/QuickbookSocialite",
     "description": "QuickBooks2018 OAuth2 Provider for Laravel Socialite",
     "license": "MIT",
     "authors": [{
