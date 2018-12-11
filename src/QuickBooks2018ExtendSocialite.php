@@ -17,7 +17,7 @@ class QuickBookSociliteServiceProvider extends SocialiteServiceProvider
     public function boot()
     {
         Socialite::extend('quickbooks2018', function ($app) {
-            $config = $app['config']['services.amazon'];
+            $config = $app['config']['services.quickbooks'];
 
             return Socialite::buildProvider(QuickBooksSocialiteProvider::class, $config);
         });
