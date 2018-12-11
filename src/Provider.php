@@ -7,7 +7,7 @@ use Laravel\Socialite\Two\ProviderInterface;
 use Laravel\Socialite\Two\User;
 
 
-class QuickBooksServiceProvider extends AbstractProvider implements ProviderInterface
+class QuickBooksProvider extends AbstractProvider implements ProviderInterface
 {
     /**
      * Unique Provider Identifier.
