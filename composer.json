@@ -1,31 +1,41 @@
 {
-    "name": "onlinecheckwriter/socialite-quickbooks",
-    "description": "QuickBooks2018 OAuth2 Provider for Laravel Socialite",
-    "license": "MIT",
-    "keywords": [
+  "name": "onlinecheckwriter/socialite-quickbooks",
+  "description": "Socialite for Login with QuickBooks",
+  "keywords": [
     "quickbooks",
     "socialite",
     "laravel"
   ],
-    "authors": [{
-        "name": "OnlineCheckWriter",
-        "email": "support@onlinecheckwriter.com"
-    }],
-    "require": {
-         "php": "^5.6 || ^7.0",
-        "socialiteproviders/manager": "^3.0"
-    },
-    
-     "extra": {
-    "laravel": {
-      "providers": [
-        "Onlinecheckwriter\\Socialite\\QuickBooks\\QuickBooksServiceProvider"
-      ]
+  "license": "MIT",
+  "require": {
+    "php": ">=7.0.0",
+    "laravel/socialite": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.0",
+    "mockery/mockery": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Onlinecheckwriter\\Socialite\\Quickbooks\\": "src"
     }
   },
-    "autoload": {
-        "psr-4": {
-            "Onlinechecwriter\\Socialite\\QuickBooks\\": "src/"
-        }
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
     }
+  },
+  "authors": [
+    {
+      "name": "onlinecheckwriter",
+      "email": "support@onlinecheckwriter.com"
+    }
+  ],
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Onlinecheckwriter\\Socialite\\Quickbooks\\QuickbooksServiceProvider"
+      ]
+    }
+  }
 }
