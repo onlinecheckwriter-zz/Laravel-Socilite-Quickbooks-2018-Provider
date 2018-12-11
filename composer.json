@@ -1,5 +1,5 @@
 {
-    "name": "socialiteproviders/quickbooks2018",
+    "name": "onlinecheckwriter/quickbooks2018",
     "description": "QuickBooks2018 OAuth2 Provider for Laravel Socialite",
     "license": "MIT",
     "authors": [{
@@ -12,7 +12,7 @@
     },
     "autoload": {
         "psr-4": {
-            "SocialiteProviders\\QuickBooks2018\\": "src/"
+            "OnlineCheckWriter\\Socialite\\QuickBooks\\": "src/"
         }
     }
 }
