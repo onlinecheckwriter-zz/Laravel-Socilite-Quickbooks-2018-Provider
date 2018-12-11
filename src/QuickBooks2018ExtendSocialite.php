@@ -1,15 +1,28 @@
 <?php
 
-namespace SocialiteProviders\QuickBookSocialite;
-use SocialiteProviders\Manager\SocialiteWasCalled;
+namespace Onlinecheckwriter\Socialite\QuickBooks;
 
-class QuickBooks2018ExtendSocialite
+use Laravel\Socialite\SocialiteServiceProvider;
+use Laravel\Socialite\Contracts\Factory;
+use Laravel\Socialite\Facades\Socialite;
+
+
+class QuickBookSociliteServiceProvider extends SocialiteServiceProvider
 {
+      protected $defer = false;
     /**
      * Execute the provider.
      */
-    public function handle(SocialiteWasCalled $socialiteWasCalled)
+    
+    public function boot()
     {
-        $socialiteWasCalled->extendSocialite('quickbooks2018', __NAMESPACE__.'\Provider');
+        Socialite::extend('quickbooks2018', function ($app) {
+            $config = $app['config']['services.amazon'];
+
+            return Socialite::buildProvider(QuickBooksSocialiteProvider::class, $config);
+        });
     }
+    
+    
+   
 }
