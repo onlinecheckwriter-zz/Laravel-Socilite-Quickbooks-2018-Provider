@@ -1,7 +1,6 @@
 <?php
 
-namespace SocialiteProviders\QuickbookSocialite2018;
-
+namespace SocialiteProviders\QuickBookSocialite;
 use SocialiteProviders\Manager\SocialiteWasCalled;
 
 class QuickBooks2018ExtendSocialite
