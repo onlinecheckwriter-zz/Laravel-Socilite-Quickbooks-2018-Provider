@@ -1,6 +1,6 @@
 <?php
 
-namespace Onlinecheckwriter\Socialite\QuickBooks;
+namespace Onlinecheckwriter\Socialite\Quickbooks
 
 use Laravel\Socialite\Two\AbstractProvider;
 use Laravel\Socialite\Two\ProviderInterface;
