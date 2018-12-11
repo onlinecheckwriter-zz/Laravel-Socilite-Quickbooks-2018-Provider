@@ -19,7 +19,7 @@ class QuickbooksServiceProvider extends SocialiteServiceProvider
         Socialite::extend('quickbooks2018', function ($app) {
             $config = $app['config']['services.quickbooks'];
 
-            return Socialite::buildProvider(QuickBooksSocialiteProvider::class, $config);
+            return Socialite::buildProvider(QuickbookProvider::class, $config);
         });
     }
     
