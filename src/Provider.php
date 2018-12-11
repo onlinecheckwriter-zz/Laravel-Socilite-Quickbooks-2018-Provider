@@ -1,6 +1,6 @@
 <?php
 
-namespace SocialiteQuickbookProviders\QuickbookSocialite;
+namespace SocialiteProviders\QuickBookSocialite;
 
 use Laravel\Socialite\Two\ProviderInterface;
 use SocialiteProviders\Manager\OAuth2\AbstractProvider;
