@@ -1,13 +1,13 @@
 <?php
 
-namespace Onlinecheckwriter\Socialite\QuickBooks;
+namespace Onlinechecwriter\Socialite\QuickBooks;
 
 use Laravel\Socialite\SocialiteServiceProvider;
 use Laravel\Socialite\Contracts\Factory;
 use Laravel\Socialite\Facades\Socialite;
 
 
-class QuickBookSociliteServiceProvider extends SocialiteServiceProvider
+class QuickBooksServiceProvider extends SocialiteServiceProvider
 {
       protected $defer = false;
     /**
