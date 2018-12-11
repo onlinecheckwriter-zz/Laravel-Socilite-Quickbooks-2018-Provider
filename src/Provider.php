@@ -1,11 +1,10 @@
 <?php
 
-namespace SocialiteProviders\QuickBookSocialite;
+namespace Onlinecheckwriter\Socialite\QuickBooks;
 
-use SocialiteProviders\Manager\OAuth2\User;
+use Laravel\Socialite\Two\AbstractProvider;
 use Laravel\Socialite\Two\ProviderInterface;
-use SocialiteProviders\Manager\OAuth2\AbstractProvider;
-
+use Laravel\Socialite\Two\User;
 
 
 class Provider extends AbstractProvider implements ProviderInterface
