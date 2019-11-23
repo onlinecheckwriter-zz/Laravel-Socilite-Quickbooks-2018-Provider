@@ -1,28 +1,22 @@
 {
-  "name": "onlinecheckwriter/socialite-quickbooks",
-  "description": "Socialite for Login with QuickBooks",
+  "name": "onlinecheckwriter/mailcheck",
+  "description": "Instant Check Mailing APi",
   "keywords": [
-    "quickbooks",
-    "socialite",
-    "laravel"
+    "online check mailing",
+    "sent physical bank check",
+    "bank check api",
+    "online check writer",
+    "check mailing",
+    "check mailing api"
   ],
   "license": "MIT",
   "require": {
-    "php": ">=7.0.0",
-    "laravel/socialite": "*"
-  },
-  "require-dev": {
-    "phpunit/phpunit": "^6.0",
-    "mockery/mockery": "^1.0"
+    "php": ">=7.0.0"
+    
   },
   "autoload": {
     "psr-4": {
-      "Onlinecheckwriter\\Socialite\\Quickbooks\\": "src"
-    }
-  },
-  "autoload-dev": {
-    "psr-4": {
-      "Tests\\": "tests/"
+      "Onlinecheckwriter\\Mailcheck": "src"
     }
   },
   "authors": [
@@ -32,10 +26,6 @@
     }
   ],
   "extra": {
-    "laravel": {
-      "providers": [
-        "Onlinecheckwriter\\Socialite\\Quickbooks\\QuickbooksServiceProvider"
-      ]
-    }
+    
   }
 }
